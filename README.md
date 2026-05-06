@@ -19,8 +19,8 @@ I’m also exploring how technology intersects with sustainability, natural reso
 ---
 
 ## 🛠️ Tools & Technologies I Work With:
-- **Languages**: Python, JavaScript, SQL  
-- **Libraries/Frameworks**: Pandas, NumPy 
+- **Languages**: Python, JavaScript, SQL, TypeScript, Java
+- **Libraries/Frameworks**: Pandas, NumPy, next js, node js
 - **Databases**: MySQL 
 - **Tools**: Git, Jupyter Notebook, VS Code, Linux, WSL 
 - **Concepts**: Machine Learning, Data Visualization, Web Development, APIs..
