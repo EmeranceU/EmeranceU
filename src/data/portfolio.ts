@@ -5,7 +5,7 @@ export const personalInfo = {
   bio: 'Passionate Software Engineering student focused on building scalable web applications and solving real-world challenges through technology.',
   email: 'emerance.umurerwa@alustudent.com',
   github: 'https://github.com/emerance',
-  linkedin: 'www.linkedin.com/in/emerance-umurerwa-b6a331340',
+  linkedin: 'https://linkedin.com/in/emerance-umurerwa-b6a331340/',
   location: 'African Leadership University',
   resumeUrl: '/resume.pdf',
 }
