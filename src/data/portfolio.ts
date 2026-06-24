@@ -3,11 +3,11 @@ export const personalInfo = {
   title: 'Software Engineering Student',
   subtitle: 'Backend & Full-Stack Developer',
   bio: 'Passionate Software Engineering student focused on building scalable web applications and solving real-world challenges through technology.',
-  email: 'emerance.umurerwa@alustudent.com',
-  github: 'https://github.com/emerance',
+  email: 'umurerwaemerance@gmail.com',
+  github: 'https://github.com/EmeranceU',
   linkedin: 'https://linkedin.com/in/emerance-umurerwa-b6a331340/',
   location: 'African Leadership University',
-  resumeUrl: '/resume.pdf',
+  resumeUrl: 'src/assets/Updated Resume_Emerance Umurerwa.pdf',
 }
 
 export const stats = [
@@ -44,6 +44,8 @@ export const skillCategories = [
       { name: 'Firebase', level: 85 },
       { name: 'Firestore', level: 83 },
       { name: 'MySQL', level: 80 },
+      { name: 'PostgresSql', level: 80 },
+      { name: 'MongoDB', level: 90 },
     ],
   },
   {
@@ -53,6 +55,9 @@ export const skillCategories = [
       { name: 'GitHub', level: 90 },
       { name: 'VS Code', level: 95 },
       { name: 'Postman', level: 85 },
+      { name: 'Figma', level: 75 },
+      { name: 'Docker', level: 60 },
+      { name: 'AI', level: 90 }
     ],
   },
 ]
@@ -65,8 +70,7 @@ export const projects = [
       'Land listing platform designed to improve transparency and reduce land fraud in real estate transactions.',
     tech: ['Firebase', 'JavaScript', 'HTML', 'CSS'],
     features: ['Authentication', 'Verified Listings', 'Property Management'],
-    github: 'https://github.com/emerance/plotsure-connect',
-    demo: 'https://plotsure-connect.netlify.app',
+    github: 'https://github.com/EMe-U/plotsure',
     color: '#C96A3D',
   },
   {
@@ -76,8 +80,7 @@ export const projects = [
       'Event management platform for registration, volunteer management, QR attendance tracking, and feedback collection.',
     tech: ['Node.js', 'Express.js', 'JavaScript'],
     features: ['Event Registration', 'QR Attendance', 'Volunteer Management', 'Feedback System'],
-    github: 'https://github.com/emerance/joinin',
-    demo: 'https://joinin-events.netlify.app',
+    github: 'https://github.com/EMe-U',
     color: '#D4A017',
   },
   {
@@ -87,8 +90,8 @@ export const projects = [
       'Book discovery platform that helps readers find, explore and track books using external APIs.',
     tech: ['React', 'TypeScript', 'Vite'],
     features: ['Book Search', 'API Integration', 'Reading Lists'],
-    github: 'https://github.com/emerance/book-hub',
-    demo: 'https://bookhub-discover.netlify.app',
+    github: 'https://github.com/ALU-BSE/summative-a-react-discovery-app-EMe-U',
+    demo: 'https://gregarious-pudding-b05930.netlify.app/',
     color: '#E76F51',
   },
   {
@@ -98,7 +101,7 @@ export const projects = [
       'Full-featured library management system with book tracking, member management, and borrowing workflows.',
     tech: ['Java', 'MySQL'],
     features: ['Book Tracking', 'Member Management', 'Borrowing System'],
-    github: 'https://github.com/emerance/library-management',
+    github: 'https://github.com/EmeranceU/Library-Management-System',
     demo: '',
     color: '#7A9E7E',
   },
@@ -122,7 +125,7 @@ export const experiences = [
     id: 2,
     role: 'Member',
     company: 'Baobab Community',
-    period: '2023 – Present',
+    period: '2024 – Present',
     type: 'Community',
     achievements: [
       'Engaged in professional development workshops and networking events',
@@ -130,35 +133,48 @@ export const experiences = [
       'Participated in mentorship and knowledge-sharing sessions',
     ],
   },
+   {
+  id: 2,
+  role: 'Weather & Climate Services Extern',
+  company: 'Hello Tractor',
+  period: 'May 2025 – June 2025',
+  type: 'Internship',
+  achievements: [
+    'Analyzed weather and climate data to support agricultural decision-making for farmers',
+    'Conducted research on weather station coverage and satellite-based climate services',
+    'Prepared professional reports and data-driven recommendations for improving climate information accessibility',
+    'Collaborated with international teams and stakeholders to support agricultural technology initiatives',
+  ],
+},
 ]
 
 export const certifications = [
   {
     id: 1,
-    title: 'AWS Cloud Practitioner',
-    issuer: 'Amazon Web Services',
-    date: 'Coming Soon',
-    status: 'in-progress',
+    title: 'DATA ANALYTICS WITH PYTHON',
+    issuer: 'Only Quality Data',
+    date: '2025',
+    status: 'Completed',
   },
   {
     id: 2,
-    title: 'Full-Stack Web Development',
+    title: 'Software Engineering(Full-Stack Web Development)',
     issuer: 'ALU',
     date: '2024',
-    status: 'completed',
+    status: 'currently',
   },
   {
     id: 3,
-    title: 'Google Data Analytics',
-    issuer: 'Google / Coursera',
+    title: 'Web Fundamentals',
+    issuer: 'IgireRwanda Organization(SheCanCode Bootcamp)',
     date: 'Coming Soon',
-    status: 'in-progress',
+    status: 'Completed',
   },
   {
     id: 4,
-    title: 'Java Programming Masterclass',
-    issuer: 'Udemy',
-    date: '2023',
-    status: 'completed',
+    title: 'Advanced Java Backend',
+    issuer: 'IgireRwanda Organization(SheCanCode Bootcamp)',
+    date: '2026',
+    status: 'in progress',
   },
 ]

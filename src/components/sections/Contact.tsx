@@ -33,7 +33,7 @@ export default function Contact() {
   const contacts = [
     { icon: FiMail, label: 'Email', value: personalInfo.email, href: `mailto:${personalInfo.email}` },
     { icon: FiLinkedin, label: 'LinkedIn', value: 'linkedin.com/in/emerance-umurerwa', href: personalInfo.linkedin },
-    { icon: FiGithub, label: 'GitHub', value: 'github.com/emerance', href: personalInfo.github },
+    { icon: FiGithub, label: 'GitHub', value: 'github.com/EmeranceU', href: personalInfo.github },
   ]
 
   return (
